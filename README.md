@@ -46,13 +46,13 @@ optimizer = 'rmsprop'
 
 loss = 'binary_crossentropy'
 
-=================================================
+========================================
 
 Layer (type) - Output Shape - Param - Activation
 
 ========================================
 
-dense_1 (Dense) - None, 12) - 180 - relu
+dense_1 (Dense) - (None, 12) - 180 - relu
 
 ========================================
 
@@ -64,7 +64,7 @@ dense_3 (Dense) - (None, 4) - 36 - relu
 
 ========================================
 
-dense_4 (Dense) - None, 1) - 5 - softmax
+dense_4 (Dense) - (None, 1) - 5 - softmax
 
 ========================================
 
