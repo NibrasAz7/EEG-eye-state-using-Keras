@@ -39,7 +39,7 @@ Spliting the data into training data and testing data, each data contains Featue
 The featers where considered as the amplitude of the signales at each sample.
 Spit ratio were choosen to be 30%.
 
-## Traiing Models
+## Training Model
 Model: "sequential_1"
 
 optimizer = 'rmsprop'
@@ -76,7 +76,6 @@ Trainable params: 325
 Non-trainable params: 0
 
 # Results
-## 1- Decision Tree (DT)
 Accuracy:         0.8297730307076101
 
 f1        score:  0.852116760100522
@@ -88,7 +87,7 @@ recall    score:  0.890864995957962
 confusion matrix: [[1525  495]
                    [ 270 2204]]
 
-# Descussion
+# Discussion
 We can notice that KNN performe better than DT.
 Classification Performance is good in general.
 
